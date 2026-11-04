@@ -1,6 +1,6 @@
 # Backlog
 
-## Milestone 1: 5 Nov (core features, database, first client review)
+## Target 1: 5 Nov (core features, database, first client review)
 - [ ] Create GitHub repo and push the first commit
 - [ ] Android project set up (Kotlin, Compose), package structure for MVVM
 - [ ] Room database set up with users, menu_items tables
@@ -16,7 +16,7 @@
 - [ ] SIM-01 Seed realistic menu (20+ items)
 - [ ] Record client feedback in `CLIENT_MEETINGS.md`
 
-## Milestone 2: 12 Nov (orders, feedback, analytics, second client review)
+## Target 2: 12 Nov (orders, feedback, analytics, second client review)
 - [ ] Room tables for orders, order_items, feedback, notifications
 - [ ] SIM-02 Order generator (random orders, plus 30 days of history)
 - [ ] SIM-03 A few customer accounts with previous orders
@@ -36,7 +36,7 @@
 - [ ] FR-16 Filter feedback by star rating
 - [ ] Record client feedback in `CLIENT_MEETINGS.md`
 
-## Milestone 3: 13 to 15 Nov (testing and report)
+## Target 3: 13 to 15 Nov (testing and report)
 - [ ] Test plan with expected and actual results
 - [ ] Unit tests for login/hashing and role check
 - [ ] Manual UI testing of every Must/High requirement
@@ -45,7 +45,7 @@
 - [ ] GenAI usage declaration
 - [ ] Viva preparation: be able to explain every part of the code
 
-## Milestone 4: 16 Nov
+## Target 4: 16 Nov
 - [ ] Final commit and submission
 - [ ] Demo and viva
 
