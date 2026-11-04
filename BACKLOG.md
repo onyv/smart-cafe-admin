@@ -1,7 +1,5 @@
 # Backlog
 
-Tick items off as they're finished and reference the ID in commit messages, e.g. `FR-13: update order status`.
-
 ## Milestone 1: 5 Nov (core features, database, first client review)
 - [ ] Create GitHub repo and push the first commit
 - [ ] Android project set up (Kotlin, Compose), package structure for MVVM
