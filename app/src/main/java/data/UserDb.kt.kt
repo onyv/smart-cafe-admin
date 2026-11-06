@@ -5,7 +5,7 @@ import androidx.room.Insert
 import androidx.room.Query
 
 @Dao
-interface `UserDb.kt` {
+interface UserDb {
     @Insert
     suspend fun insert(user: User): Long
 
