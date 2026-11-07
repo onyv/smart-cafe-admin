@@ -3,8 +3,8 @@
 ## Target 1: 5 Nov (core features, database, first client review)
 - [/] Create GitHub repo and push the first commit
 - [/] Android project set up (Kotlin, Compose), package structure for MVVM
-- [ ] Room database set up with users, menu_items tables
-- [ ] FR-01 Admin login with email and password (salted password hashing)
+- [/] Room database set up with users, menu_items tables
+- [/] FR-01 Admin login with email and password (salted password hashing)
 - [ ] FR-02 Only admin accounts can reach admin screens
 - [ ] FR-03 Sign out clears the session
 - [ ] FR-04 Menu list grouped by category
