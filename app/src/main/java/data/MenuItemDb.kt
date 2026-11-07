@@ -13,7 +13,7 @@ interface MenuItemDb {
     fun getALL(): Flow<List<MenuItem>> //Get all function returns each menu item sorted by category
 
     @Insert
-    suspend fun Insert(item: MenuItem)  //Adds new item to database and returns its id number
+    suspend fun Insert(item: MenuItem): Long  //Adds new item to database and returns its id number
     @Delete
     suspend fun Delete(item: MenuItem) //Deletes row with id number specified
     @Update
