@@ -30,6 +30,6 @@ object Seeder {
         MenuItem(name = "Croissant", category = "Pastries", description = "Butter croissant, mastered by our baker", price = 1.50),
         MenuItem(name = "Blueberry Muffin", category = "Pastries", description = "Buttermilk muffin filled with fresh blueberries", price = 2.80),
         MenuItem(name = "Cinnamon roll", category = "Pastries", description = "Sweet and sticky ", price = 1.90),
-        MenuItem(name = "Cheese Sandwich", category = "Food", description = "Cheddar on white hovis bread", price = 2.50)
+        MenuItem(name = "Cheese Sandwich", category = "Food", description = "Cheddar cheese with butter on soft white hovis bread", price = 2.50)
     )
 }

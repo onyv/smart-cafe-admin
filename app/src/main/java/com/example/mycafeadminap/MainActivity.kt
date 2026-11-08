@@ -28,6 +28,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<TextView>(R.id.welcomeText).text = "Welcome, ${session.displayName()}"
+
+        findViewById<Button>(R.id.menuButton).setOnClickListener {
+            startActivity(Intent(this, MenuActivity::class.java))
+        }
+
         findViewById<Button>(R.id.logoutButton).setOnClickListener {
             session.clear()
             goToLogin()
