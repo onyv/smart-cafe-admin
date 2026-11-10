@@ -7,7 +7,11 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mycafeadminap.data.MenuItem
 
-class MenuAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+//When clicked a single tap creates an edit dialogue and when tap is held a delete confirmation is created
+class MenuAdapter(
+    private val onClick: (MenuItem) -> Unit,
+    private val onLongClick: (MenuItem) -> Unit
+) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private var rows: List<MenuRow> = emptyList()
 
@@ -45,7 +49,7 @@ class MenuAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         when (val row = rows[position]) {
             is MenuRow.Header -> (holder as HeaderHolder).title.text = row.title
-            is MenuRow.Entry -> (holder as EntryHolder).bind(row.item)
+            is MenuRow.Entry -> (holder as EntryHolder).bind(row.item, onClick, onLongClick)
         }
     }
 
@@ -60,12 +64,16 @@ class MenuAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         private val status: TextView = view.findViewById(R.id.itemStatus)
         private val price: TextView = view.findViewById(R.id.itemPrice)
 
-        fun bind(item: MenuItem) {
+        // The two callbacks are passed in from the adapter because this nested class can't see them
+        fun bind(item: MenuItem, onClick: (MenuItem) -> Unit, onLongClick: (MenuItem) -> Unit) {
             name.text = item.name
             description.text = item.description
             price.text = "£" + "%.2f".format(item.price)
             status.text = if (item.availability) "Available" else "Unavailable"
             root.alpha = if (item.availability) 1f else 0.5f
+
+            root.setOnClickListener { onClick(item) }
+            root.setOnLongClickListener { onLongClick(item); true } //True means long press has happened
         }
     }
 
