@@ -1,6 +1,6 @@
 # Smart Café Admin App
 
-Android app for café staff to manage the menu, work through incoming orders, read customer feedback and view sales analytics. Built for CTEC3703 Mobile Application Development (individual project). The customer side is simulated so the admin side can be demonstrated end to end.
+Android app for café staff to manage the menu, work through incoming orders, read customer feedback and view sales analytics. The customer side is simulated so the admin side can be demonstrated end to end.
 
 ## Tech
 - Kotlin, Android Studio
@@ -21,7 +21,6 @@ Android app for café staff to manage the menu, work through incoming orders, re
 2. Let Gradle sync.
 3. Run on an emulator or device.
 
-(Add the admin test login and how to load the sample data here once they exist.)
 
 ## Status
 In progress. See `BACKLOG.md` for what's done.
