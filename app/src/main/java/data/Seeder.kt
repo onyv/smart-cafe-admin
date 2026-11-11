@@ -20,6 +20,11 @@ object Seeder {
         if (db.MenuItemDb().count() == 0) {
             sampleMenu.forEach { db.MenuItemDb().Insert(it) }
         }
+
+        // Simulated customer orders: 30 orders spread over the last 30 days (only if there are none yet)
+        if (db.orderDb().countOrders() == 0) {
+            OrderGenerator.generate(db, 30, 30)
+        }
     }
 
     private val sampleMenu = listOf(
