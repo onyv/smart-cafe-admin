@@ -8,17 +8,17 @@
 - [ ] FR-02 Only admin accounts can reach admin screens
 - [ ] FR-03 Sign out clears the session
 - [/] FR-04 Menu list grouped by category
-- [ ] FR-05 Add menu item
-- [ ] FR-06 Edit menu item
-- [ ] FR-07 Delete menu item (with confirmation)
-- [ ] FR-08 Mark item available/unavailable
+- [/] FR-05 Add menu item
+- [/] FR-06 Edit menu item
+- [/] FR-07 Delete menu item (with confirmation)
+- [/] FR-08 Mark item available/unavailable
 - [ ] FR-09 Input validation on menu forms
 - [ ] SIM-01 Seed realistic menu (20+ items)
 - [ ] Record client feedback in `CLIENT_MEETINGS.md`
 
 ## Target 2: 12 Nov (orders, feedback, analytics, second client review)
 - [ ] Room tables for orders, order_items, feedback, notifications
-- [ ] SIM-02 Order generator (random orders, plus 30 days of history)
+- [/] SIM-02 Order generator (random orders, plus 30 days of history)
 - [ ] SIM-03 A few customer accounts with previous orders
 - [ ] FR-11 Incoming orders list, newest first
 - [ ] FR-12 Order detail with item quantities and status
