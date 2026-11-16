@@ -11,7 +11,8 @@
         android:layout_marginBottom="12dp"
         android:text="Menu"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/addMenuButton"
@@ -25,9 +26,9 @@
         android:layout_height="wrap_content"
         android:text="Back" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/menuList"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menuList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

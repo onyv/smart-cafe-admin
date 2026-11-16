@@ -12,20 +12,23 @@
         android:layout_height="wrap_content"
         android:text="Smart Café Admin"
         android:textSize="26sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="24dp"
-        android:text="Log in to manage the menu and orders" />
+        android:text="Log in to manage the menu and orders"
+        android:textColor="#FFFFFF"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email">
+        android:hint="Email"
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailInput"
@@ -40,13 +43,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:hint="Password"
-        app:endIconMode="password_toggle">
+        app:endIconMode="password_toggle"
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -54,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:textColor="#B00020"
+        android:textColor="#FF8A80"
         android:visibility="gone" />
 
     <Button
