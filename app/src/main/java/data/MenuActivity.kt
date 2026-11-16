@@ -40,6 +40,12 @@ class MenuActivity : AppCompatActivity() {
         }
         setContentView(R.layout.activity_menu)
 
+        findViewById<Button>(R.id.backButton).setOnClickListener {
+            finish()
+        }
+
+
+
         val dao = AppDatabase.get(applicationContext).MenuItemDb()
 
         // Tap a row = edit, long press = delete
