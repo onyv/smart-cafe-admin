@@ -25,34 +25,44 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLayout"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
-        >
+        android:textColorHint="#CCCCCC"
+        app:boxBackgroundColor="#40000000"
+        app:boxStrokeColor="#FFFFFF"
+        app:hintTextColor="#FFFFFF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passwordLayout"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:hint="Password"
+        android:textColorHint="#CCCCCC"
+        app:boxBackgroundColor="#40000000"
+        app:boxStrokeColor="#FFFFFF"
         app:endIconMode="password_toggle"
-        >
+        app:endIconTint="#FFFFFF"
+        app:hintTextColor="#FFFFFF">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:textColor="#FFFFFF"/>
-    </com.google.android.material.textfield.TextInputLayout>
+            android:textColor="#FFFFFF" />
+    </com.google.android.material.textfield.TextInputLayout>putLayout>
 
     <TextView
         android:id="@+id/errorText"
