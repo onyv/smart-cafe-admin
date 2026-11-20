@@ -40,6 +40,10 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.orderButton).setOnClickListener {
             startActivity(Intent(this, OrderActivity::class.java))
         }
+
+        findViewById<Button>(R.id.dashboardButton).setOnClickListener {
+            startActivity(Intent(this, DashboardActivity::class.java))
+        }
     }
 
     private fun goToLogin() {

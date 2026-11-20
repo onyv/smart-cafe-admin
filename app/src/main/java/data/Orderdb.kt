@@ -31,4 +31,7 @@ interface OrderDb {
 
     @Query("SELECT * FROM notifications ORDER BY createdAt DESC")
     fun getNotifications(): Flow<List<OrderNotification>>
+
+    @Query("SELECT * FROM order_items")
+    suspend fun getAllItems(): List<OrderItem>
 }
