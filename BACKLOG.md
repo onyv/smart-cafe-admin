@@ -5,16 +5,16 @@
 - [/] Android project set up (Kotlin, Compose), package structure for MVVM
 - [/] Room database set up with users, menu_items tables
 - [/] FR-01 Admin login with email and password (salted password hashing)
-- [ ] FR-02 Only admin accounts can reach admin screens
-- [ ] FR-03 Sign out clears the session
+- [/] FR-02 Only admin accounts can reach admin screens
+- [/] FR-03 Sign out clears the session
 - [/] FR-04 Menu list grouped by category
 - [/] FR-05 Add menu item
 - [/] FR-06 Edit menu item
 - [/] FR-07 Delete menu item (with confirmation)
 - [/] FR-08 Mark item available/unavailable
-- [ ] FR-09 Input validation on menu forms
+- [/] FR-09 Input validation on menu forms
 - [ ] SIM-01 Seed realistic menu (20+ items)
-- [ ] Record client feedback in `CLIENT_MEETINGS.md`
+- [/] Record client feedback in `CLIENT_MEETINGS.md`
 
 ## Target 2: 12 Nov (orders, feedback, analytics, second client review)
 - [ ] Room tables for orders, order_items, feedback, notifications
@@ -45,7 +45,7 @@
 - [ ] GenAI usage declaration
 - [ ] Viva preparation: be able to explain every part of the code
 
-## Target 4: 16 Nov
+## Target 4: 23 Nov
 - [ ] Final commit and submission
 - [ ] Demo and viva
 
