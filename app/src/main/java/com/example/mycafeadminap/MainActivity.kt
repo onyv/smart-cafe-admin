@@ -37,6 +37,9 @@ class MainActivity : AppCompatActivity() {
             session.clear()
             goToLogin()
         }
+        findViewById<Button>(R.id.orderButton).setOnClickListener {
+            startActivity(Intent(this, OrderActivity::class.java))
+        }
     }
 
     private fun goToLogin() {

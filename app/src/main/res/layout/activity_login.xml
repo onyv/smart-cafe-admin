@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:textColor="#FFFFFF" />
-    </com.google.android.material.textfield.TextInputLayout>putLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/errorText"
