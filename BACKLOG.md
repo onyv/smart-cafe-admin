@@ -20,10 +20,10 @@
 - [ ] Room tables for orders, order_items, feedback, notifications
 - [/] SIM-02 Order generator (random orders, plus 30 days of history)
 - [ ] SIM-03 A few customer accounts with previous orders
-- [ ] FR-11 Incoming orders list, newest first
-- [ ] FR-12 Order detail with item quantities and status
-- [ ] FR-13 Update order status (ordered, preparing, completed)
-- [ ] FR-14 Notification record created on status change
+- [/] FR-11 Incoming orders list, newest first
+- [/] FR-12 Order detail with item quantities and status
+- [/] FR-13 Update order status (ordered, preparing, completed)
+- [/] FR-14 Notification record created on status change
 - [ ] SIM-05 Notification log screen
 - [ ] SIM-04 Generate feedback and ratings for completed orders
 - [ ] FR-15 View feedback and ratings
