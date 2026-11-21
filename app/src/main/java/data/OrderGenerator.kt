@@ -10,7 +10,7 @@ object OrderGenerator {
 
     private const val DAY_MS = 24L * 60 * 60 * 1000
     private val customerNames = listOf(
-        "Alex", "Sam", "Jordan", "Taylor", "Morgan", "Casey", "Riley", "Jamie"
+        "Alex", "Sam", "Jordan", "Taylor", "Morgan", "Casey", "Riley", "Jamie", "Hassan", "Ali", "Bobby", "Cole", "Tyrese", "Edward"
     )
 
     // spreadDays = 30 makes past orders spread over the last 30 days (for analytics).
