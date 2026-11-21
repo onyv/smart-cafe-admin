@@ -44,6 +44,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.dashboardButton).setOnClickListener {
             startActivity(Intent(this, DashboardActivity::class.java))
         }
+        findViewById<Button>(R.id.feedbackButton).setOnClickListener {
+            startActivity(Intent(this, FeedbackActivity::class.java))
+        }
     }
 
     private fun goToLogin() {
