@@ -10,7 +10,7 @@ Android app for café staff to manage the menu, work through incoming orders, re
 - Own login built on a users table, with salted password hashing
 
 ## Project documents
-- `docs/PRD.md` – requirements analysis and PRD
+- `Smart Café Admin App – Requirements Analysis and PRD.docx` – requirements analysis and PRD
 - `BACKLOG.md` – tasks mapped to requirement IDs and milestones
 - `CLIENT_MEETINGS.md` – record of client (lab) feedback
 - `CHANGELOG.md` – changes and change requests
