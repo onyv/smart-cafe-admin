@@ -25,15 +25,15 @@
 - [/] FR-13 Update order status (ordered, preparing, completed)
 - [/] FR-14 Notification record created on status change
 - [ ] SIM-05 Notification log screen
-- [ ] SIM-04 Generate feedback and ratings for completed orders
-- [ ] FR-15 View feedback and ratings
+- [/] SIM-04 Generate feedback and ratings for completed orders
+- [/] FR-15 View feedback and ratings
 - [/] FR-17 Dashboard: total orders and revenue
 - [/] FR-18 Popular items
 - [/] FR-19 Revenue chart
 - [ ] Analytics functions with unit tests (including empty data)
 - [/] Error message with retry for failed queries
 - [ ] FR-10 Menu search by name
-- [ ] FR-16 Filter feedback by star rating
+- [/] FR-16 Filter feedback by star rating
 - [ ] Record client feedback in `CLIENT_MEETINGS.md`
 
 ## Target 3: 13 to 15 Nov (testing and report)
