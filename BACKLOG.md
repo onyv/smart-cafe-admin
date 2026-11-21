@@ -13,7 +13,7 @@
 - [/] FR-07 Delete menu item (with confirmation)
 - [/] FR-08 Mark item available/unavailable
 - [/] FR-09 Input validation on menu forms
-- [ ] SIM-01 Seed realistic menu (20+ items)
+- [/] SIM-01 Seed realistic menu (20+ items)
 - [/] Record client feedback in `CLIENT_MEETINGS.md`
 
 ## Target 2: 12 Nov (orders, feedback, analytics, second client review)
