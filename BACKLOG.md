@@ -16,19 +16,19 @@
 - [/] Record client feedback in `CLIENT_MEETINGS.md`
 
 ## Target 2: 12 Nov (orders, feedback, analytics, second client review)
-- [ ] Room tables for orders, order_items, feedback, notifications
+- [/] Room tables for orders, order_items, feedback, notifications
 - [/] SIM-02 Order generator (random orders, plus 30 days of history)
-- [ ] SIM-03 A few customer accounts with previous orders
+- [/] SIM-03 A few customer accounts with previous orders
 - [/] FR-10 Incoming orders list, newest first
 - [/] FR-11 Order detail with item quantities and status
 - [/] FR-12 Update order status (ordered, preparing, completed)
 - [/] FR- Notification record created on status change
-- [ ] SIM-05 Notification log screen
+- [/] SIM-05 Notification log screen
 - [/] SIM-04 Generate feedback and ratings for completed orders
 - [/] FR-13 View feedback and ratings
 - [/] FR-15 Dashboard: total orders and revenue
 - [/] FR-17 Revenue chart
-- [ ] Analytics functions with unit tests (including empty data)
+- [/] Analytics functions with unit tests (including empty data)
 - [/] Error message with retry for failed queries
 - [ ] FR-16 Menu search by name
 - [/] FR-14 Filter feedback by star rating
