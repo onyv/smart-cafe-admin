@@ -46,9 +46,9 @@ object Seeder {
         MenuItem(name = "Hashbrown", category = "Breakfast", description = "Fried potatoes until golden brown", price = 1.00),
         MenuItem(name = "Cheese Sandwich", category = "Food", description = "Cheddar cheese with butter on soft white hovis bread", price = 2.50),
         MenuItem(name = "Ham & Cheddar Croissant", category = "Food", description = "Melted mozzarella and ham in a croissant", price = 1.30),
-        MenuItem(name = "Sprinkle cake", category = "Desert", description = "Cake decorated with sprinkles for extra taste and visual appeal", price = 2.00),
-        MenuItem(name = "Sponge cake", category = "Desert", description = "Sponge cake is a light, airy cake with sponge like texture", price = 2.40),
-        MenuItem(name = "Red velvet cake", category = "Desert", description = "Chocolate flavoured cake with a soft, velvety crumb and its signature red color", price = 2.00)
+        MenuItem(name = "Sprinkle cake", category = "Dessert", description = "Cake decorated with sprinkles for extra taste and visual appeal", price = 2.00),
+        MenuItem(name = "Sponge cake", category = "Dessert", description = "Sponge cake is a light, airy cake with sponge like texture", price = 2.40),
+        MenuItem(name = "Red velvet cake", category = "Dessert", description = "Chocolate flavoured cake with a soft, velvety crumb and its signature red color", price = 2.00)
 
     )
 }

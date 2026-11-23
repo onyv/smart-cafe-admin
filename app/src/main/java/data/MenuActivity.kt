@@ -28,7 +28,7 @@ class MenuActivity : AppCompatActivity() {
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
     // Fixed choices so "drinks" and "Drinks" can't create two headings
-    private val categories = listOf("Drinks", "Pastries", "Food")
+    private val categories = listOf("Pastries", "Breakfast","Drinks","Food", "Dessert")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
